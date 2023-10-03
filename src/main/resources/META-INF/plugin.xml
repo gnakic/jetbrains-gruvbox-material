@@ -1,7 +1,6 @@
 <idea-plugin>
   <id>com.gnakic.gruvbox.material</id>
-  <name>Gruvbox Material</name>
-  <version>0.1</version>
+  <name>Gruvbox Material Theme</name>
   <description>Gruvbox Material color scheme for editor and UI.
     Fork of https://plugins.jetbrains.com/plugin/19469-gruvbox-material, which is based on the well known Gruvbox Theme
     https://plugins.jetbrains.com/plugin/12310-gruvbox-theme, and existing Gruvbox Material theme
@@ -16,7 +15,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <themeProvider id="ab670a63-0593-4cbc-acd4-8b76f6a8fd8c" path="/Gruvbox_Material.theme.json"/>
+    <themeProvider id="bca69b5f-bce4-4b21-92d5-2e8279ec09e7" path="/Gruvbox_Material.theme.json"/>
   </extensions>
 
   <actions>
