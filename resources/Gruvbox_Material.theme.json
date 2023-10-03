@@ -1,7 +1,7 @@
 {
   "name": "Gruvbox Material",
   "dark": true,
-  "author": "Dominik",
+  "author": "Gabriel Nakic",
   "editorScheme": "/Gruvbox_Material.xml",
   "colors": {
     "bg0": "#191a1a",
@@ -22,6 +22,7 @@
     "fg": "#d4be98",
     "fg1": "#c5b18d",
     "red": "#ea6962",
+    "border": "#444343",
     "orange": "#e78a4e",
     "yellow": "#d8a657",
     "green": "#a9b665",
@@ -41,19 +42,21 @@
     "diffGreen": "#34381b",
     "diffRed": "#402120",
     "diffBlue": "#0e363e",
-    "shadow": "#00000070"
+    "shadow": "#00000070",
+    "cream": "#d4be98",
+    "darkCream": "#a89984"
   },
   "ui": {
     "*": {
-      "background": "bg2",
+      "background": "bg3",
       "foreground": "fg1",
 
       "infoForeground": "grey2",
       "successForeground": "#50A661",
 
-      "selectionBackground": "darkAqua",
+      "selectionBackground": "bg7",
       "selectionForeground": "fg0",
-      "selectionInactiveBackground": "#3f523c",
+      "selectionInactiveBackground": "bg5",
       "selectionBackgroundInactive": "bg2",
 
       "disabledBackground": "selRed",
@@ -68,15 +71,15 @@
 
       "errorForeground": "#FA3232",
 
-      "borderColor": "bg0",
+      "borderColor": "border",
       "disabledBorderColor": "bg",
-      "focusColor": "aqua",
-      "focusedBorderColor": "aqua",
-      "hoverBorderColor": "aqua",
-      "pressedBorderColor": "aqua",
+      "focusColor": "cream",
+      "focusedBorderColor": "darkCream",
+      "hoverBorderColor": "darkCream",
+      "pressedBorderColor": "darkCream",
 
       "separatorColor": "grey0",
-      "lineSeparatorColor": "darkAqua",
+      "lineSeparatorColor": "bg7",
 
       "selectedBackgroundInactive": "bg6",
       "selectedInactiveBackground": "bg5",
@@ -85,6 +88,9 @@
       "selectedForeground": "fg0",
       "hoverBackground": "#32302f"
     },
+    "Borders": {
+      "color": "border"
+    },
     "ActionButton": {
       "hoverBackground": "#32302f",
       "pressedBackground": "32302f"
@@ -92,17 +98,17 @@
     "Button": {
       "startBackground": "bg2",
       "endBackground": "bg2",
-      "startBorderColor": "aqua",
-      "endBorderColor": "aqua",
-      "focusedBorderColor": "aqua",
+      "startBorderColor": "cream",
+      "endBorderColor": "cream",
+      "focusedBorderColor": "cream",
       "shadowColor": "shadow",
       "default": {
         "foreground": "fg",
         "startBackground": "bg2",
         "endBackground": "bg2",
-        "startBorderColor": "aqua",
-        "endBorderColor": "aqua",
-        "focusedBorderColor": "aqua"
+        "startBorderColor": "cream",
+        "endBorderColor": "cream",
+        "focusedBorderColor": "cream"
       }
     },
     "ComboBox": {
@@ -116,8 +122,8 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "bg",
-        "inactiveBackground": "bg"
+        "background": "bg3",
+        "inactiveBackground": "bg3"
       },
       "HeaderTab": {
         "selectedInactiveBackground": "bg0_h",
@@ -126,11 +132,19 @@
     },
     "EditorTabs": {
       "underlineColor": "fg1",
-      "underlineHeight": "2",
+      "underlineHeight": "3",
       "inactiveColoredFileBackground": "bg3",
-      "background": "bg",
-      "underlinedTabBackground": "bg3"
+      "background": "bg2",
+      "underlinedTabBackground": "bg2"
     },
+    "Popup": {
+      "borderColor": "border"
+    },
+    "Notification" : {
+      "borderColor": "border"
+    },
+    "ToolTip.borderColor": "border",
+    "ComboPopup.border": "border",
     "FileColor": {
       "Yellow": "#fabd2f12",
       "Green": "#b8bb2612",
@@ -147,7 +161,7 @@
       "visitedForeground": "blue1"
     },
     "Panel": {
-      "background": "bg"
+      "background": "bg3"
     },
     "VersionControl.Log.Commit.currentBranchBackground": "bg4",
     "Tree": {

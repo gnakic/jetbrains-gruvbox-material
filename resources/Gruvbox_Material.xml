@@ -39,6 +39,7 @@
     <option name="SELECTION_BACKGROUND" value="665c54" />
     <option name="TEARLINE_COLOR" value="665c54" />
     <option name="TOOLTIP" value="3c3f41" />
+    <option name="LOOKUP_COLOR" value="383432" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">

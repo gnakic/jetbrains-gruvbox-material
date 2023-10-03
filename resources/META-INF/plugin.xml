@@ -1,12 +1,12 @@
 <idea-plugin>
-  <id>com.dominik.gruvbox.material</id>
+  <id>com.gnakic.gruvbox.material</id>
   <name>Gruvbox Material</name>
   <version>0.1</version>
-  <description>Gruvbox Material color scheme for editor and UI. Based on well known Gruvbox Theme
+  <description>Gruvbox Material color scheme for editor and UI.
+    Fork of https://plugins.jetbrains.com/plugin/19469-gruvbox-material, which is based on the well known Gruvbox Theme
     https://plugins.jetbrains.com/plugin/12310-gruvbox-theme, and existing Gruvbox Material theme
     https://github.com/sainnhe/gruvbox-material</description>
-  <vendor email="dominik.jetbrains@mailbox.org" url="https://github.com/sorpera/jetbrains-gruvbox-material">Dominik</vendor>
-
+  <vendor email="gabluc@protonmail.com">Gabriel Nakic</vendor>
   <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
   <idea-version since-build="173.0"/>
 

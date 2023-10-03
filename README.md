@@ -1,2 +1,2 @@
-# jetbrains-gruvbox-material
+# Jetbrains Gruvbox Material
 Gruvbox Material theme for Jetbrains IDE
