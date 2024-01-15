@@ -93,7 +93,8 @@
     },
     "ActionButton": {
       "hoverBackground": "#32302f",
-      "pressedBackground": "32302f"
+      "pressedBorderColor": "bg6",
+      "pressedBackground": "bg6"
     },
     "Button": {
       "startBackground": "bg2",
