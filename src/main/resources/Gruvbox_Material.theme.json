@@ -120,7 +120,13 @@
         "nonEditableBackground": "bg"
       }
     },
+    "TabbedPane": {
+      "underlineColor": "fg1"
+    },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "bg7"
+      },
       "Header": {
         "background": "bg3",
         "inactiveBackground": "bg3"

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.gabluc'
-version '0.1.0'
+version '0.1.1'
 
 sourceCompatibility = 1.8
 
@@ -23,6 +23,11 @@ intellij {
 
 patchPluginXml {
     changeNotes """
+    <h2>0.1.1</h2>
+    <ul>
+        <li>2023.3 support</li>
+        <li>Tool window button and tabbed pane tab are no longer blue when actively focused</li>
+    </ul>
     <h2>0.1.0</h2>
     <ul>
         <li>Initial release</li>
@@ -30,5 +35,5 @@ patchPluginXml {
       """
 
     sinceBuild '191.0'
-    untilBuild '232.*'
+    untilBuild '233.*'
 }
