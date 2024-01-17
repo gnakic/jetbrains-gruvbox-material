@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.gabluc'
-version '0.1.1'
+version '0.1.2'
 
 sourceCompatibility = 1.8
 
@@ -23,6 +23,11 @@ intellij {
 
 patchPluginXml {
     changeNotes """
+    <h2>0.1.2</h2>
+    <ul>
+        <li>Link colour fix</li>
+        <li>Tweak popup header colours</li>
+    </ul>
     <h2>0.1.1</h2>
     <ul>
         <li>2023.3 support</li>

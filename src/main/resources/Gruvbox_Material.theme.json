@@ -133,8 +133,8 @@
         "inactiveBackground": "bg3"
       },
       "HeaderTab": {
-        "selectedInactiveBackground": "bg0_h",
-        "hoverInactiveBackground": "bg0_h"
+        "selectedInactiveBackground": "bg0",
+        "hoverInactiveBackground": "bg0"
       }
     },
     "EditorTabs": {
@@ -145,6 +145,12 @@
       "underlinedTabBackground": "bg2"
     },
     "Popup": {
+      "Header": {
+        "activeBackground": "bg3",
+        "activeForeground": "fg0",
+        "inactiveBackground": "bg3",
+        "inactiveForeground": "fg1"
+      },
       "borderColor": "border"
     },
     "Notification" : {
@@ -162,10 +168,10 @@
       "Gray": "#47474712"
     },
     "Link": {
-      "activeForeground": "blue1",
-      "hoverForeground": "blue1",
-      "pressedForeground": "blue1",
-      "visitedForeground": "blue1"
+      "activeForeground": "blue",
+      "hoverForeground": "blue",
+      "pressedForeground": "blue",
+      "visitedForeground": "blue"
     },
     "Panel": {
       "background": "bg3"
