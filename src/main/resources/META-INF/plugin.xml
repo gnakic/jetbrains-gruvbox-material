@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>me.gnakic.gruvbox.material</id>
+  <id>com.gnakic.gruvbox.material</id>
   <name>Gruvbox Material Theme</name>
   <description>Gruvbox Material color scheme for editor and UI.
     Fork of https://plugins.jetbrains.com/plugin/19469-gruvbox-material, which is based on the well known Gruvbox Theme
