@@ -1,17 +1,16 @@
 <idea-plugin>
-  <id>com.gnakic.gruvbox.material</id>
+  <id>me.gnakic.gruvbox.material</id>
   <name>Gruvbox Material Theme</name>
   <description>Gruvbox Material color scheme for editor and UI.
     Fork of https://plugins.jetbrains.com/plugin/19469-gruvbox-material, which is based on the well known Gruvbox Theme
     https://plugins.jetbrains.com/plugin/12310-gruvbox-theme, and existing Gruvbox Material theme
     https://github.com/sainnhe/gruvbox-material</description>
-  <vendor email="gabluc@protonmail.com">Gabriel Nakic</vendor>
-  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <vendor email="gabriel@nakic.me">Gabriel Nakic</vendor>
 
-  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <depends>com.intellij.modules.platform</depends>
+  <!-- uncomment to enable plugin in all products -->
+  <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->

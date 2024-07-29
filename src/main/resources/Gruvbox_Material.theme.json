@@ -134,6 +134,7 @@
       },
       "HeaderTab": {
         "selectedInactiveBackground": "bg0",
+        "underlineColor": "fg1",
         "hoverInactiveBackground": "bg0"
       }
     },
